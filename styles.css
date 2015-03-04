@@ -2,6 +2,10 @@ body, h1, h2, h3{
   font-family: 'Raleway', sans-serif;
 }
 
+.container{
+  padding: 0;
+}
+
 ul{
   list-style-type: none;
 }
@@ -12,8 +16,8 @@ ul{
   width: 100%;
   z-index: 2;
   margin-top: -150px;
-  background-color: blue;
-  opacity: 0.4;
+  background-color: rgb(3, 139, 255);
+  opacity: 0.5;
 }
 header h2, h5{
   text-align: center;

@@ -19,6 +19,13 @@ ul{
   background-color: rgb(3, 139, 255);
   opacity: 0.5;
 }
+.wave{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  opacity: 0.6;
+}
+
 header h2, h5{
   text-align: center;
   color: white;

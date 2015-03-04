@@ -13,11 +13,11 @@ header h2{
 header h5{
   text-align: center;
 }
-header ul{
+nav ul{
   text-align: center;
   padding-left: 0;
 }
-header ul li {
+nav ul li {
   display: inline-block;
 }
 #about {

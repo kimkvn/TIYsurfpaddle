@@ -7,11 +7,18 @@ ul{
 }
 
 /* Header */
-header h2{
-  text-align: center;
+#headerFilter{
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+  margin-top: -150px;
+  background-color: blue;
+  opacity: 0.4;
 }
-header h5{
+header h2, h5{
   text-align: center;
+  color: white;
+  opacity: 1;
 }
 nav ul{
   text-align: center;
@@ -19,6 +26,7 @@ nav ul{
 }
 nav ul li {
   display: inline-block;
+  color: white;
 }
 #about {
   padding-right: 10px;
@@ -26,3 +34,18 @@ nav ul li {
 #search {
   padding-left: 10px;
 }
+header img{
+  position: relative;
+  z-index: 1;
+}
+
+/*#headerFilter:before{
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0,90,150, 0.5);
+}*/

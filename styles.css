@@ -20,6 +20,7 @@ ul{
   opacity: 0.5;
 }
 .wave{
+  width: 10%;
   display: block;
   margin-right: auto;
   margin-left: auto;

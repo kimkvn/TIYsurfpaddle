@@ -2,7 +2,7 @@ body, h1, h2, h3{
   font-family: 'Raleway', sans-serif;
 }
 
-.container{
+.container-fluid{
   padding: 0;
 }
 
@@ -15,7 +15,7 @@ ul{
   position: absolute;
   width: 100%;
   z-index: 2;
-  margin-top: -150px;
+  margin-top: -50%;
   background-color: rgb(3, 139, 255);
   opacity: 0.5;
 }

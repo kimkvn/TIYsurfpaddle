@@ -1,10 +1,18 @@
 body, h1, h2, h3{
   font-family: 'Raleway', sans-serif;
 }
+
 h1{
   color: rgb(18, 52, 86);
   font-size: 6ex;
 }
+
+a{
+  color: rgb(170, 170, 187);
+  text-decoration: underline;
+}
+
+
 .container-fluid{
   padding: 0;
 }

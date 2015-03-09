@@ -1,7 +1,10 @@
 body, h1, h2, h3{
   font-family: 'Raleway', sans-serif;
 }
-
+h1{
+  color: rgb(18, 52, 86);
+  font-size: 6ex;
+}
 .container-fluid{
   padding: 0;
 }
@@ -54,13 +57,13 @@ header img{
   z-index: 1;
 }
 
-/*#headerFilter:before{
-  content: '';
-  display: block;
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background: rgba(0,90,150, 0.5);
-}*/
+/* Article */
+article{
+  margin-left: 5%;
+}
+blockquote{
+  color: rgb(13, 108, 178);
+  border-left: 3px solid rgb(144, 144, 144);
+  font-size: 3ex;
+  padding-left: 10px;
+}

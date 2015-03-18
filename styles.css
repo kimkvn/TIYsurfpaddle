@@ -76,20 +76,40 @@ blockquote{
 }
 
 /* Article-read Actions */
+/*#readIcons a::before{
+  border: 1px solid red;
+}
+#readIcons li{
+  display: inline-block;
+}
+@media (min-width:600px){
+  #readIcons a::before{
+    display: none;
+  }
+}*/
 #readActions li{
   display: none;
+  font-family: 'FontAwesome';
 }
-#fa {
-  display:inline-block;
-}
-#comment{
-  border: 1px solid blue;
-}
-#comment::before{
+#readActions li::before{
   border: 1px solid red;
+}
+@media (min-width: 5px){
+  #readActions li::before{
+    display: inline;
+  }k
 }
 @media (min-width: 600px){
   #readActions li{
   display: inline-block;
   }
+}
+#comment::before{
+  content:'\f0e5';
+}
+#later::before{
+  content:'\f0ed';
+}
+#share::before{
+  content: '\f14d';
 }

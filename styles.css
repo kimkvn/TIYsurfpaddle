@@ -74,8 +74,19 @@ blockquote{
   font-size: 3ex;
   padding-left: 10px;
 }
+
+/* Article-read Actions */
 #readActions li{
   display: none;
+}
+#fa {
+  display:inline-block;
+}
+#comment{
+  border: 1px solid blue;
+}
+#comment::before{
+  border: 1px solid red;
 }
 @media (min-width: 600px){
   #readActions li{

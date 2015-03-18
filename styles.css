@@ -88,28 +88,40 @@ blockquote{
   }
 }*/
 #readActions li{
-  display: none;
+  display: inline-block;
   font-family: 'FontAwesome';
+  padding: 5px;
+  margin-right: 1em;
+  background: #AABBCC;
 }
-#readActions li::before{
-  border: 1px solid red;
+/*#share li{
+  background: #2971b0;
+}*/
+#readActions a{
+  text-decoration: none;
+  color: #fff;
 }
-@media (min-width: 5px){
-  #readActions li::before{
-    display: inline;
-  }k
+
+#readActions a::before{
+  padding: 7px;
+  margin-left: -8px;
+  background: rgb(19, 53, 81);
+  border: 1px solid rgb(19, 53, 81);
+  color: #fff;
 }
-@media (min-width: 600px){
+
+/*@media (min-width: 600px){
   #readActions li{
   display: inline-block;
   }
+}*/
+#comment a::before{
+  content:'\f075';
+  color: white;
 }
-#comment::before{
-  content:'\f0e5';
+#later a::before{
+  content:'\f0ee';
 }
-#later::before{
-  content:'\f0ed';
-}
-#share::before{
-  content: '\f14d';
+#share a::before{
+  content:'\f14d';
 }

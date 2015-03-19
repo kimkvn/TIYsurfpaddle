@@ -20,7 +20,8 @@ ul{
   list-style-type: none;
 }
 
-/* Header */
+/** ----Header---- **/
+
 #headerFilter{
   position: absolute;
   width: 100%;
@@ -64,7 +65,7 @@ header img{
   z-index: 1;
 }
 
-/* Article */
+/** ----Article---- **/
 article{
   margin-left: 5%;
 }
@@ -74,19 +75,9 @@ blockquote{
   font-size: 3ex;
   padding-left: 10px;
 }
-
-/* Article-read Actions */
-/*#readIcons a::before{
-  border: 1px solid red;
+#readActions{
+  padding-left: 0.5em;
 }
-#readIcons li{
-  display: inline-block;
-}
-@media (min-width:600px){
-  #readIcons a::before{
-    display: none;
-  }
-}*/
 #readActions li{
   display: inline-block;
   font-family: 'FontAwesome';
@@ -94,9 +85,9 @@ blockquote{
   margin-right: 1em;
   background: #AABBCC;
 }
-/*#share li{
+#readActions #share{
   background: #2971b0;
-}*/
+}
 #readActions a{
   text-decoration: none;
   color: #fff;
@@ -125,3 +116,6 @@ blockquote{
 #share a::before{
   content:'\f14d';
 }
+
+
+/** ----Most Popular Posts---- **/

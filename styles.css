@@ -119,3 +119,29 @@ blockquote{
 
 
 /** ----Most Popular Posts---- **/
+
+#posts h2{
+  text-align: center;
+  color: rgb(18, 52, 86);
+}
+.row a{
+  padding: 0;
+  border: none;
+}
+.row img{
+  width: 100%;
+}
+/*.thumbnail:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0,90,150, 0.5);
+  transition: all .3s linear;
+}
+.thumbnail:hover:before {
+  background: none;
+}*/

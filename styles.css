@@ -124,12 +124,18 @@ blockquote{
   text-align: center;
   color: rgb(18, 52, 86);
 }
+.row{
+  margin: 0;
+}
 .row a{
   padding: 0;
   border: none;
 }
 .row img{
   width: 100%;
+}
+.row div{
+  padding: 0;
 }
 /*.thumbnail:before {
   content: '';

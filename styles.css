@@ -205,7 +205,9 @@ footer a {
 }
 .tiy_logo{
   background-color: rgb(19, 53, 81);
-  border: none;
+  margin: 0;
   padding: 0;
+  border: none;
   box-shadow: none;
+
 }

@@ -119,6 +119,7 @@ blockquote{
 }
 #author .thumbnail{
   border: none;
+  box-shadow: none;
 }
 #author img{
   border-radius: 150px;
@@ -132,7 +133,7 @@ blockquote{
   display: inline-block;
 }
 #social li a{
-  padding: 0 1em 0 1em;
+  padding: 0 1em;
 }
 #twitter{
   border-right: 2px solid;
@@ -194,4 +195,17 @@ footer ul{
 }
 footer li {
   display: inline-block;
+}
+footer a {
+  padding: 0 1em;
+  text-decoration: none;
+}
+#footer1, #footer2, #footer3{
+  border-right: 2px solid rgb(163, 179, 91);
+}
+.tiy_logo{
+  background-color: rgb(19, 53, 81);
+  border: none;
+  padding: 0;
+  box-shadow: none;
 }

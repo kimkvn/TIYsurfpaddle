@@ -101,11 +101,6 @@ blockquote{
   color: #fff;
 }
 
-/*@media (min-width: 600px){
-  #readActions li{
-  display: inline-block;
-  }
-}*/
 #comment a::before{
   content:'\f075';
   color: white;
@@ -129,6 +124,23 @@ blockquote{
   border-radius: 150px;
   width: 25%;
 }
+#social{
+  text-align: center;
+  padding-left: 0;
+}
+#social li {
+  display: inline-block;
+}
+#social li a{
+  padding: 0 1em 0 1em;
+}
+#twitter{
+  border-right: 2px solid;
+}
+#facebook{
+  border-right: 2px solid;
+}
+
 
 /** ----Most Popular Posts---- **/
 

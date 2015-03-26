@@ -28,15 +28,11 @@ header{
   background-size: cover;
 }
 #headerFilter{
-  /*position: absolute;*/
-  width: 100%;
-  z-index: 2;
-  /*margin-top: -57%;*/
-  background-color: rgb(3, 139, 255);
+  background-color: rgb(3, 139, 255); /*blue filter*/
   opacity: 0.5;
 }
 .wave{
-  width: 10%;
+  width: 3.5em;
   display: block;
   margin-right: auto;
   margin-left: auto;
@@ -45,8 +41,7 @@ header{
 
 header h2, h5{
   text-align: center;
-  color: white;
-  opacity: 1;
+  color: #fff;
 }
 nav{
   padding-top: 1.5ex;
@@ -57,7 +52,7 @@ nav ul{
 }
 nav ul li {
   display: inline-block;
-  color: white;
+  color: #fff;
 }
 #about {
   padding-right: 10px;
@@ -65,10 +60,6 @@ nav ul li {
 #search {
   padding-left: 10px;
 }
-/*header img{
-  position: relative;
-  z-index: 1;
-}*/
 
 /** ----Article---- **/
 article{

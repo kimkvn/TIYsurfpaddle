@@ -137,6 +137,12 @@ blockquote{
   border-right: 2px solid;
 }
 
+/** ----Ad---- **/
+#ad img{
+  width: 70%;
+  margin-top: 10ex;
+}
+
 
 /** ----Most Popular Posts---- **/
 

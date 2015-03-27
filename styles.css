@@ -28,8 +28,7 @@ header{
   background-size: cover;
 }
 #headerFilter{
-  background-color: rgb(3, 139, 255); /*blue filter*/
-  opacity: 0.5;
+  background-color: rgba(3, 139, 255, 0.5); /*blue filter*/
 }
 .wave{
   width: 3.5em;

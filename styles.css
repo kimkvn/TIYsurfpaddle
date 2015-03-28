@@ -1,5 +1,5 @@
 body, h1, h2, h3{
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway', 'FontAwesome', sans-serif;
 }
 
 h1{
@@ -29,6 +29,7 @@ header{
 }
 #headerFilter{
   background-color: rgba(3, 139, 255, 0.5); /*blue filter*/
+  padding-bottom: 1ex;
 }
 .wave{
   width: 3.5em;
@@ -37,10 +38,12 @@ header{
   margin-left: auto;
   opacity: 0.6;
 }
-
 header h2, h5{
   text-align: center;
   color: #fff;
+}
+header h5{
+  color: rgb(18, 52, 86);
 }
 nav{
   padding-top: 1.5ex;
@@ -51,7 +54,7 @@ nav ul{
 }
 nav ul li {
   display: inline-block;
-  color: #fff;
+  color: rgb(18, 52, 86);
 }
 #about {
   padding-right: 10px;

@@ -176,7 +176,12 @@ blockquote{
   padding: 0;
   margin-bottom: 3ex;
 }
-
+#posts h3{
+  position: absolute;
+  margin-top: -55px;
+  margin-left: 15px;
+  color: white;
+}
 #posts a:before{
   content: '';
   display: block;

@@ -151,10 +151,16 @@ blockquote{
 
 
 /** ----Most Popular Posts---- **/
-
+#posts{
+  border-top: 1.5px solid rgb(128, 128, 128);
+  padding-top: 3ex;
+}
 #posts h2{
   text-align: center;
   color: rgb(18, 52, 86);
+}
+#posts .thumbnail{
+  margin-bottom: 0;
 }
 .row{
   margin: 0;
@@ -163,20 +169,20 @@ blockquote{
   padding: 0;
   border: none;
 }
-.row img{
+#posts img{
   width: 100%;
 }
 .row div{
   padding: 0;
+  margin-bottom: 3ex;
 }
 @media (min-width: 768px) and (max-width:1199px){
   .row div{
-    padding-right: 1em;
-    padding-left: 1em;
+    margin-right: 1em;
+    margin-left: 1em;
   }
 }
-
-/*.thumbnail:before {
+#posts a:before {
   content: '';
   display: block;
   position: absolute;
@@ -187,9 +193,9 @@ blockquote{
   background: rgba(0,90,150, 0.5);
   transition: all .3s linear;
 }
-.thumbnail:hover:before {
+#posts a:hover:before {
   background: none;
-}*/
+}
 
 /** ----Footer---- **/
 footer{

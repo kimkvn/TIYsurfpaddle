@@ -176,13 +176,8 @@ blockquote{
   padding: 0;
   margin-bottom: 3ex;
 }
-@media (min-width: 768px) and (max-width:1199px){
-  .row div{
-    margin-right: 1em;
-    margin-left: 1em;
-  }
-}
-#posts a:before {
+
+#posts a:before{
   content: '';
   display: block;
   position: absolute;
@@ -196,7 +191,16 @@ blockquote{
 #posts a:hover:before {
   background: none;
 }
-
+@media (min-width: 768px) and (max-width:1199px){
+  .row div{
+    padding-right: 1em;
+    padding-left: 1em;
+  }
+  #posts a:before{
+    right: 1em;
+    left: 1em;
+  }
+}
 /** ----Footer---- **/
 footer{
   background-color: rgb(19, 53, 81);

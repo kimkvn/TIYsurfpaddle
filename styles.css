@@ -1,0 +1,238 @@
+body, h1, h2, h3{
+  font-family: 'Raleway', 'FontAwesome', sans-serif;
+}
+
+h1{
+  color: rgb(18, 52, 86);
+  font-size: 6ex;
+}
+
+a{
+  color: rgb(170, 170, 187);
+  text-decoration: underline;
+}
+
+.container-fluid{
+  padding: 0;
+}
+
+ul{
+  list-style-type: none;
+}
+
+/** ----Header---- **/
+header{
+  background-image: url(images/header-bg.jpeg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+#headerFilter{
+  background-color: rgba(3, 139, 255, 0.5); /*blue filter*/
+  padding-bottom: 1ex;
+}
+.wave{
+  width: 3.5em;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  opacity: 0.6;
+}
+header h2, h5{
+  text-align: center;
+  color: #fff;
+}
+header h5{
+  color: rgb(18, 52, 86);
+}
+nav{
+  padding-top: 1.5ex;
+}
+nav ul{
+  text-align: center;
+  padding-left: 0;
+}
+nav ul li {
+  display: inline-block;
+  color: rgb(18, 52, 86);
+}
+#about {
+  padding-right: 10px;
+}
+#search {
+  padding-left: 10px;
+}
+
+/** ----Article---- **/
+article{
+  margin-left: 5%;
+}
+blockquote{
+  color: rgb(13, 108, 178);
+  border-left: 3px solid rgb(144, 144, 144);
+  font-size: 3ex;
+  padding-left: 10px;
+}
+#readActions{
+  padding-left: 0.5em;
+}
+#readActions li{
+  display: inline-block;
+  font-family: 'FontAwesome';
+  padding: 5px;
+  margin-right: 1em;
+  background: #AABBCC;
+}
+#readActions #share{
+  background: #2971b0;
+}
+#readActions a{
+  text-decoration: none;
+  color: #fff;
+}
+
+#readActions a::before{
+  padding: 7px;
+  margin-left: -8px;
+  background: rgb(19, 53, 81);
+  border: 1px solid rgb(19, 53, 81);
+  color: #fff;
+}
+
+#comment a::before{
+  content:'\f075';
+  color: white;
+}
+#later a::before{
+  content:'\f0ee';
+}
+#share a::before{
+  content:'\f14d';
+}
+
+/** ----Author---- **/
+#author h3{
+  text-align: center;
+  color: rgb(44, 115, 177);
+}
+#author .thumbnail{
+  border: none;
+  box-shadow: none;
+}
+#author img{
+  border-radius: 150px;
+  width: 25%;
+}
+#social{
+  text-align: center;
+  padding-left: 0;
+}
+#social li {
+  display: inline-block;
+}
+#social li a{
+  padding: 0 1em;
+}
+#twitter{
+  border-right: 2px solid;
+}
+#facebook{
+  border-right: 2px solid;
+}
+
+/** ----Ad---- **/
+#ad img{
+  width: 100%;
+  margin-top: 10ex;
+}
+
+#ad .thumbnail{
+  width: 75%;
+  border: none;
+  box-shadow: none;
+}
+
+
+/** ----Most Popular Posts---- **/
+#posts{
+  border-top: 1.5px solid rgb(128, 128, 128);
+  padding-top: 3ex;
+}
+#posts h2{
+  text-align: center;
+  color: rgb(18, 52, 86);
+}
+#posts .thumbnail{
+  margin-bottom: 0;
+}
+.row{
+  margin: 0;
+}
+.row a{
+  padding: 0;
+  border: none;
+}
+#posts img{
+  width: 100%;
+}
+.row div{
+  padding: 0;
+  margin-bottom: 3ex;
+}
+#posts h3{
+  position: absolute;
+  margin-top: -55px;
+  margin-left: 15px;
+  color: white;
+}
+#posts a:before{
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0,90,150, 0.5);
+  transition: all .3s linear;
+}
+#posts a:hover:before {
+  background: none;
+}
+@media (min-width: 768px) and (max-width:1199px){
+  .row div{
+    padding-right: 1em;
+    padding-left: 1em;
+  }
+  #posts a:before{
+    right: 1em;
+    left: 1em;
+  }
+}
+/** ----Footer---- **/
+footer{
+  background-color: rgb(19, 53, 81);
+  text-align: center;
+  padding: 4em 0;
+}
+footer ul{
+  padding-left: 0;
+}
+footer li {
+  display: inline-block;
+}
+footer a {
+  padding: 0 1em;
+  text-decoration: none;
+}
+#footer1, #footer2, #footer3{
+  border-right: 2px solid rgb(163, 179, 91);
+}
+.tiy_logo{
+  background-color: rgb(19, 53, 81);
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-shadow: none;
+
+}

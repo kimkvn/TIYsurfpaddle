@@ -96,11 +96,12 @@ blockquote{
   padding-left: 0.5em;
 }
 #readActions li{
-  display: inline-block;
+  display: none;
   font-family: 'FontAwesome';
   padding: 5px;
   margin-right: 1em;
   background: #AABBCC;
+  border-radius: 10px;
 }
 #readActions #share{
   background: #2971b0;
@@ -109,24 +110,37 @@ blockquote{
   text-decoration: none;
   color: #fff;
 }
-
 #readActions a::before{
   padding: 7px;
   margin-left: -8px;
+  margin-right: 5px;
   background: rgb(19, 53, 81);
   border: 1px solid rgb(19, 53, 81);
   color: #fff;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
-
 #comment a::before{
   content:'\f075';
-  color: white;
 }
 #later a::before{
   content:'\f0ee';
 }
 #share a::before{
   content:'\f14d';
+}
+#readActions2{
+  padding-left: 0;
+}
+#readActions2 li{
+  display: inline-block;
+  background: rgb(102, 102, 102);
+  padding: 5px 10px;
+  margin: 0px 7px;
+  border-radius: 10px;
+}
+#readActions2 a{
+  text-decoration: none;
 }
 
 /** ----Author---- **/
@@ -170,7 +184,6 @@ blockquote{
   border: none;
   box-shadow: none;
 }
-
 
 /** ----Most Popular Posts---- **/
 #posts{
@@ -247,6 +260,15 @@ footer a {
 }
 
 /** ----Media Queries---- **/
+@media (min-width: 480px){
+  #readActions li{
+    display: inline-block;
+  }
+  #readActions2{
+    display: none;
+  }
+}
+
 @media (min-width: 768px){
   #about2{
     margin-left: 40%;

@@ -65,6 +65,13 @@ header h5{
 
 
 /** ----Article---- **/
+.author_tag img{
+  border-radius: 150px;
+}
+.author_name{
+  text-decoration: none;
+  color: rgb(13, 108, 178);
+}
 article{
   margin-left: 5%;
 }

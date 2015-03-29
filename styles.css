@@ -260,7 +260,7 @@ footer a {
 }
 
 /** ----Media Queries---- **/
-@media (min-width: 480px){
+@media (min-width: 493px){
   #readActions li{
     display: inline-block;
   }

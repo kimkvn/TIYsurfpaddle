@@ -66,6 +66,15 @@ header h5{
 
 
 /** ----Article---- **/
+.blog_body{
+  padding-top: 4ex;
+}
+.sidebar{
+  padding-top: 5ex;
+}
+.sidebar h2{
+  color: rgb(18, 52, 86);
+}
 .author_tag img{
   border-radius: 150px;
 }
@@ -264,4 +273,5 @@ footer a {
   header h2{
     font-size: 11ex;
   }
+
 }
